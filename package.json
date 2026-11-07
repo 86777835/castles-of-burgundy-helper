@@ -1,0 +1,1 @@
+{"name":"castles-of-burgundy-helper","private":true,"type":"module","scripts":{"test":"node tests/run.mjs","dev":"wrangler dev --port 8951","sync":"node tools/sync.mjs"}}

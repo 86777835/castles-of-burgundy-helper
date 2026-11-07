@@ -1,0 +1,33 @@
+{
+ "note": "浏览器（未登录）逐页读取，2026-11-06 至 11-07。只记链接、可见数字和概括，不含原文全文。",
+ "集石": {
+  "game_pages": [
+   {"url":"https://www.gstonegames.com/game/info-32658.html","name":"勃艮第城堡：特别典藏版","score":9.1,"rank":1,"publisher_field":"奇思工作室 / 玩乐小子 / Awaken Realms / Ravensburger AG","langs":"德/英/简中/繁中","setup_field":"5-10分钟","bgg":363622,"rules":["doc-4543 Official Rulebook 2023-12-27","doc-5562 官方游戏规则 2025-06-11 来源:其它（30页简中扫描图）"],"reviews_seen":10,"review_dates":"2026-10-26 至 11-04"},
+   {"url":"https://www.gstonegames.com/game/info-11758.html","name":"勃根地城堡：豪华版","score":8.6,"rank":26,"publisher_field":"alea / 栢龙玩具 / Ravensburger AG","langs":"英/德/法/繁中","bgg":271320,"rules":["doc-3399 非官方中文规则 2020-09-27"],"reviews_seen":10,"review_dates":"2026-10-26 至 11-06"},
+   {"url":"https://www.gstonegames.com/game/info-668.html","name":"勃根地城堡","score":8.4,"rank":55,"bgg":84876,"rules":["doc-292 Official Rulebook 2018-10-24","doc-753 官方中文规则书 2018-12-08 来源:出版商（繁中，栢龙版）"],"reviews_seen":10,"review_dates":"2026-10-24 至 11-05"}
+  ],
+  "search_api":"gstonegames.com/game/?keyword= 返回“未登录，请登录后操作”"
+ },
+ "贴吧": {
+  "search":"https://tieba.baidu.com/f/search/res?ie=utf-8&qw=勃艮第城堡",
+  "bar":"勃艮第城堡吧 关注15 贴子10",
+  "threads_read":[
+   {"url":"https://tieba.baidu.com/p/8880506288","title":"勃艮第城堡提问","date":"2024-01-30","replies_shown":16},
+   {"url":"https://tieba.baidu.com/p/7651477237","title":"勃艮第城堡加哪些扩有意思","date":"2021-12-13","replies_shown":26,"note":"未登录只展开第2楼及其楼中楼"},
+   {"url":"https://tieba.baidu.com/p/11148502820","title":"求助关于勃艮第城堡2v2规则","date":"2026-10-29","replies_shown":12},
+   {"url":"https://tieba.baidu.com/p/6417572115","title":"咨询下勃艮第城堡的问题","date":"2019-12-29","replies_shown":18}
+  ]
+ },
+ "知乎": {
+  "search":"登录墙",
+  "pages_read":[
+   {"url":"https://www.zhihu.com/pin/1632018003108712448","author":"游卡桌游圈","date":"2023-04-19","content":"特别典藏版简中版预约公告"},
+   {"url":"https://www.zhihu.com/question/512773705","title":"桌游勃艮第城堡和农场主和殖民火星买哪一个？","views":12458,"answers":5}
+  ]
+ },
+ "小红书":"搜索页显示“登录后查看搜索结果”，0 条",
+ "豆瓣":"游戏短评页与小组帖均 403“please Login”，0 条",
+ "什么值得买":"搜索可见；与本游戏相关的仅为“全网内容”转载卡片（互动均为 0）及葡萄酒商品，0 条原创玩家样本",
+ "微信公众号_搜狗":{"queries":["勃艮第城堡 规则","勃艮第城堡 易错","勃艮第城堡 计分 小程序"],"note":"只读标题与摘要，未打开正文；“计分 小程序”无相关结果"},
+ "游卡桌游网":{"url":"https://www.zhuoyou.com/index.php/Web/detail?news_id=3526","date":"2023-04-06","note":"转载自 Yoka核心工作室公众号，页面 13 个评价"}
+}

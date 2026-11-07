@@ -1,0 +1,6 @@
+node_modules
+.wrangler
+shots
+.DS_Store
+# 官方宣传图候选（含水印，只作核对，不公开）
+docs/封面候选/

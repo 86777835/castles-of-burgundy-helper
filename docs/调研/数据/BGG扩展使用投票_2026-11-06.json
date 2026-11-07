@@ -1,0 +1,65 @@
+{
+ "date": "2026-11-06",
+ "source": "https://boardgamegeek.com/thread/3260475",
+ "api": "https://api.geekdo.com/api/polls/1974782/results",
+ "question": "Which expansions do you mostly play with? (多选)",
+ "voters": 178,
+ "results": [
+  {
+   "option": "The white castles",
+   "votes": 142
+  },
+  {
+   "option": "4 additional hex tiles",
+   "votes": 124
+  },
+  {
+   "option": "Duchy boards 11-18",
+   "votes": 90
+  },
+  {
+   "option": "Duchy boards 19-20",
+   "votes": 83
+  },
+  {
+   "option": "Duchy boards 23-30",
+   "votes": 82
+  },
+  {
+   "option": "Duchy boards 21-22",
+   "votes": 82
+  },
+  {
+   "option": "The Inns",
+   "votes": 75
+  },
+  {
+   "option": "The trade routes",
+   "votes": 71
+  },
+  {
+   "option": "The vineyards expansion",
+   "votes": 69
+  },
+  {
+   "option": "Solo game",
+   "votes": 47
+  },
+  {
+   "option": "2 border post bonus tiles",
+   "votes": 34
+  },
+  {
+   "option": "None, only base game",
+   "votes": 22
+  },
+  {
+   "option": "Shield expansions",
+   "votes": 17
+  },
+  {
+   "option": "The team game",
+   "votes": 6
+  }
+ ]
+}

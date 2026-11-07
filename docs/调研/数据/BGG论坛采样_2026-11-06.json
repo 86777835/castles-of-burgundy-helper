@@ -1,0 +1,716 @@
+{
+ "date": "2026-11-06",
+ "note": "BGG 论坛定向采样；只记元数据，正文未存。长帖最多读前 3 页（75 楼）。total_posts 为当日 API 返回值。",
+ "threads": [
+  {
+   "thread_id": 1021420,
+   "url": "https://boardgamegeek.com/thread/1021420/order-of-set-up-and-whether-this-is-the-best-metho",
+   "title": "order of set up and whether this is the best method?",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 12,
+   "read_posts": 12,
+   "created": "2013-08-13"
+  },
+  {
+   "thread_id": 1047678,
+   "url": "https://boardgamegeek.com/thread/1047678/advanced-game-setup-and-2nd-tiebreaker",
+   "title": "Advanced game setup & 2nd tiebreaker",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 7,
+   "read_posts": 7,
+   "created": "2013-10-02"
+  },
+  {
+   "thread_id": 1061677,
+   "url": "https://boardgamegeek.com/thread/1061677/2-player-setup-inquiry-black-tile-depot",
+   "title": "2 Player Setup Inquiry: Black tile depot",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 6,
+   "read_posts": 6,
+   "created": "2013-10-29"
+  },
+  {
+   "thread_id": 1068705,
+   "url": "https://boardgamegeek.com/thread/1068705/castles-of-burgundy-storage-solution",
+   "title": "Castles of Burgundy Storage Solution",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 16,
+   "read_posts": 16,
+   "created": "2013-11-10"
+  },
+  {
+   "thread_id": 1088320,
+   "url": "https://boardgamegeek.com/thread/1088320/bonus-tiles",
+   "title": "bonus tiles ",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 12,
+   "read_posts": 12,
+   "created": "2013-12-17"
+  },
+  {
+   "thread_id": 1284267,
+   "url": "https://boardgamegeek.com/thread/1284267/phase-setup-question",
+   "title": "Phase Setup Question",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 16,
+   "read_posts": 16,
+   "created": "2014-12-13"
+  },
+  {
+   "thread_id": 1358812,
+   "url": "https://boardgamegeek.com/thread/1358812/playing-cob-for-the-first-time-this-weekend-any-co",
+   "title": "Playing CoB for the first time this weekend -- any commonly missed and/or misunderstood rules, etc.?",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 20,
+   "read_posts": 20,
+   "created": "2015-04-22"
+  },
+  {
+   "thread_id": 1420963,
+   "url": "https://boardgamegeek.com/thread/1420963/black-tile-setup-confusion-not-about-labeling",
+   "title": "Black tile setup confusion (not about labeling)",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 8,
+   "read_posts": 8,
+   "created": "2015-08-19"
+  },
+  {
+   "thread_id": 1447082,
+   "url": "https://boardgamegeek.com/thread/1447082/ran-out-of-black-tiles-in-final-phase-setup",
+   "title": "Ran Out of Black tiles in Final Phase Setup",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 4,
+   "read_posts": 4,
+   "created": "2015-10-03"
+  },
+  {
+   "thread_id": 1562559,
+   "url": "https://boardgamegeek.com/thread/1562559/which-online-option-is-better",
+   "title": "Which online option is better?",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 35,
+   "read_posts": 35,
+   "created": "2016-04-19"
+  },
+  {
+   "thread_id": 1607533,
+   "url": "https://boardgamegeek.com/thread/1607533/variant-suggestion-to-shorten-play-time-for-castle",
+   "title": "Variant Suggestion to Shorten Play Time for Castles of Burgundy?",
+   "edition_page": "2011",
+   "forum": "Variants",
+   "total_posts": 10,
+   "read_posts": 10,
+   "created": "2016-07-18"
+  },
+  {
+   "thread_id": 1631361,
+   "url": "https://boardgamegeek.com/thread/1631361/starting-castle-points",
+   "title": "starting castle points?",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 9,
+   "read_posts": 9,
+   "created": "2016-09-01"
+  },
+  {
+   "thread_id": 1731583,
+   "url": "https://boardgamegeek.com/thread/1731583/setup-worker-distribution-clockwise-direction",
+   "title": "Setup Worker Distribution - \"Clockwise Direction\"",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 8,
+   "read_posts": 8,
+   "created": "2017-02-20"
+  },
+  {
+   "thread_id": 1781956,
+   "url": "https://boardgamegeek.com/thread/1781956/question-on-clearing-and-re-drawing-new-six-sided",
+   "title": "Question on clearing and re-drawing new six sided tiles between phases",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 10,
+   "read_posts": 10,
+   "created": "2017-05-17"
+  },
+  {
+   "thread_id": 1836213,
+   "url": "https://boardgamegeek.com/thread/1836213/best-insert-for-quick-setup",
+   "title": "Best insert for quick setup? ",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 33,
+   "read_posts": 32,
+   "created": "2017-08-24"
+  },
+  {
+   "thread_id": 1838806,
+   "url": "https://boardgamegeek.com/thread/1838806/organizing-tiles-by-number-of-players",
+   "title": "Organizing tiles by number of players...",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 10,
+   "read_posts": 10,
+   "created": "2017-08-28"
+  },
+  {
+   "thread_id": 1844246,
+   "url": "https://boardgamegeek.com/thread/1844246/remembering-whether-or-not-you-have-used-silverlin",
+   "title": "Remembering whether or not you have used silverlings this round yet.",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 15,
+   "read_posts": 15,
+   "created": "2017-09-06"
+  },
+  {
+   "thread_id": 1920479,
+   "url": "https://boardgamegeek.com/thread/1920479/web-app-i-made-to-complement-gameplay",
+   "title": "Web app I made to complement gameplay",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 3,
+   "read_posts": 3,
+   "created": "2018-01-15"
+  },
+  {
+   "thread_id": 1938036,
+   "url": "https://boardgamegeek.com/thread/1938036/overthink-much-placing-goods-at-the-beginning-of-a",
+   "title": "Overthink Much? Placing Goods at the Beginning of a Phase",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 10,
+   "read_posts": 10,
+   "created": "2018-02-11"
+  },
+  {
+   "thread_id": 1958007,
+   "url": "https://boardgamegeek.com/thread/1958007/one-of-my-favorite-games-of-all-time-but-can-be-ve",
+   "title": "One Of My Favorite Games of All Time, But Can Be Very Long And Draining",
+   "edition_page": "2011",
+   "forum": "Reviews",
+   "total_posts": 20,
+   "read_posts": 20,
+   "created": "2018-03-14"
+  },
+  {
+   "thread_id": 2118442,
+   "url": "https://boardgamegeek.com/thread/2118442/worst-rule-mistake-ever-action-once-per-turn",
+   "title": "worst rule mistake ever (action once per turn)",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 3,
+   "read_posts": 3,
+   "created": "2018-12-24"
+  },
+  {
+   "thread_id": 2199956,
+   "url": "https://boardgamegeek.com/thread/2199956/setup",
+   "title": "Setup?",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 13,
+   "read_posts": 13,
+   "created": "2019-05-08"
+  },
+  {
+   "thread_id": 2429632,
+   "url": "https://boardgamegeek.com/thread/2429632/anybody-playing-the-app",
+   "title": "Anybody playing the app?",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 13,
+   "read_posts": 13,
+   "created": "2020-05-16"
+  },
+  {
+   "thread_id": 2629713,
+   "url": "https://boardgamegeek.com/thread/2629713/black-tile-setup-for-two-players",
+   "title": "Black tile setup for two players",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 8,
+   "read_posts": 8,
+   "created": "2021-03-28"
+  },
+  {
+   "thread_id": 2633342,
+   "url": "https://boardgamegeek.com/thread/2633342/spent-more-time-than-i-needed-figuring-it-out-the",
+   "title": "Spent more time than I needed figuring it out the components list. Here is quick reference to save others time.",
+   "edition_page": "2019",
+   "forum": "General",
+   "total_posts": 9,
+   "read_posts": 9,
+   "created": "2021-04-02"
+  },
+  {
+   "thread_id": 2825903,
+   "url": "https://boardgamegeek.com/thread/2825903/scoring-in-the-mobile-app",
+   "title": "Scoring in the mobile app",
+   "edition_page": "2019",
+   "forum": "Rules",
+   "total_posts": 7,
+   "read_posts": 7,
+   "created": "2022-03-05"
+  },
+  {
+   "thread_id": 2937510,
+   "url": "https://boardgamegeek.com/thread/2937510/how-can-i-make-setup-easier",
+   "title": "How can I make setup easier?",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 9,
+   "read_posts": 9,
+   "created": "2022-09-19"
+  },
+  {
+   "thread_id": 3109408,
+   "url": "https://boardgamegeek.com/thread/3109408/ive-made-a-huge-mistake",
+   "title": "I've made a huge mistake",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 20,
+   "read_posts": 20,
+   "created": "2023-06-30"
+  },
+  {
+   "thread_id": 3113021,
+   "url": "https://boardgamegeek.com/thread/3113021/what-to-do-with-expansions",
+   "title": "What to do With Expansions",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 8,
+   "read_posts": 8,
+   "created": "2023-07-06"
+  },
+  {
+   "thread_id": 3113204,
+   "url": "https://boardgamegeek.com/thread/3113204/turn-order-track",
+   "title": "Turn order track? ",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 6,
+   "read_posts": 6,
+   "created": "2023-07-07"
+  },
+  {
+   "thread_id": 3113785,
+   "url": "https://boardgamegeek.com/thread/3113785/typo-for-chateauma-setup",
+   "title": "Typo for Châteauma Setup",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 7,
+   "read_posts": 7,
+   "created": "2023-07-07"
+  },
+  {
+   "thread_id": 3114830,
+   "url": "https://boardgamegeek.com/thread/3114830/was-vineyards-setup-confusing-for-anyone-else",
+   "title": "Was Vineyards setup confusing for anyone else? ",
+   "edition_page": "SE2023",
+   "forum": "Rules",
+   "total_posts": 4,
+   "read_posts": 4,
+   "created": "2023-07-09"
+  },
+  {
+   "thread_id": 3116903,
+   "url": "https://boardgamegeek.com/thread/3116903/which-tiles-to-use",
+   "title": "Which tiles to use?",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 14,
+   "read_posts": 14,
+   "created": "2023-07-13"
+  },
+  {
+   "thread_id": 3117340,
+   "url": "https://boardgamegeek.com/thread/3117340/definitive-guide-to-reboxingsortingorganising-the",
+   "title": "Definitive Guide to Reboxing/Sorting/Organising the Game (with castle minis, no acrylic tiles), No Lid Lift",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 18,
+   "read_posts": 18,
+   "created": "2023-07-14"
+  },
+  {
+   "thread_id": 3117766,
+   "url": "https://boardgamegeek.com/thread/3117766/keeping-track-of-turn-order-changes",
+   "title": "keeping track of turn order changes?",
+   "edition_page": "SE2023",
+   "forum": "Rules",
+   "total_posts": 11,
+   "read_posts": 11,
+   "created": "2023-07-14"
+  },
+  {
+   "thread_id": 3119278,
+   "url": "https://boardgamegeek.com/thread/3119278/expansion-list-and-discussion",
+   "title": "Expansion list and discussion",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 12,
+   "read_posts": 12,
+   "created": "2023-07-17"
+  },
+  {
+   "thread_id": 3125016,
+   "url": "https://boardgamegeek.com/thread/3125016/which-components-to-use",
+   "title": "Which Components to Use?",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 13,
+   "read_posts": 13,
+   "created": "2023-07-26"
+  },
+  {
+   "thread_id": 3126112,
+   "url": "https://boardgamegeek.com/thread/3126112/please-someone-make-a-player-aid-for-the-shields",
+   "title": "Please someone make a player aid for the shields",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 12,
+   "read_posts": 12,
+   "created": "2023-07-28"
+  },
+  {
+   "thread_id": 3133131,
+   "url": "https://boardgamegeek.com/thread/3133131/first-player-and-picking-dutchy",
+   "title": "First player and picking Dutchy",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 16,
+   "read_posts": 16,
+   "created": "2023-08-09"
+  },
+  {
+   "thread_id": 3138608,
+   "url": "https://boardgamegeek.com/thread/3138608/for-first-time-player-how-long-would-it-take-to-pl",
+   "title": "For first time player, how long would it take to play a two player game with Vineyards expansion?",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 9,
+   "read_posts": 9,
+   "created": "2023-08-19"
+  },
+  {
+   "thread_id": 3148864,
+   "url": "https://boardgamegeek.com/thread/3148864/expansion-9-team-game-error-in-setup-rules",
+   "title": "Expansion 9 - Team game: error in setup rules?",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 5,
+   "read_posts": 5,
+   "created": "2023-09-06"
+  },
+  {
+   "thread_id": 3149729,
+   "url": "https://boardgamegeek.com/thread/3149729/set-up-contradiction-in-french-rules",
+   "title": "Set up - contradiction in French rules",
+   "edition_page": "SE2023",
+   "forum": "Rules",
+   "total_posts": 3,
+   "read_posts": 3,
+   "created": "2023-09-07"
+  },
+  {
+   "thread_id": 3151176,
+   "url": "https://boardgamegeek.com/thread/3151176/how-does-everyone-select-their-boards",
+   "title": "How does everyone select their boards? ",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 11,
+   "read_posts": 11,
+   "created": "2023-09-10"
+  },
+  {
+   "thread_id": 3159465,
+   "url": "https://boardgamegeek.com/thread/3159465/vineyard-expansion-2-and-3-players-which-do-you-so",
+   "title": "Vineyard expansion 2 and 3 players - which do you sort out?",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 8,
+   "read_posts": 8,
+   "created": "2023-09-25"
+  },
+  {
+   "thread_id": 3170573,
+   "url": "https://boardgamegeek.com/thread/3170573/german-errata-and-faq-deutscher-faq",
+   "title": "German Errata and FAQ / Deutscher FAQ",
+   "edition_page": "SE2023",
+   "forum": "Rules",
+   "total_posts": 23,
+   "read_posts": 23,
+   "created": "2023-10-13"
+  },
+  {
+   "thread_id": 3178212,
+   "url": "https://boardgamegeek.com/thread/3178212/keeping-track-of-your-ongoing-monastery-tile-power",
+   "title": "Keeping track of your ongoing Monastery tile powers ",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 9,
+   "read_posts": 9,
+   "created": "2023-10-25"
+  },
+  {
+   "thread_id": 3180829,
+   "url": "https://boardgamegeek.com/thread/3180829/initial-castle-position-resolved-spanish-errata",
+   "title": "Initial castle position RESOLVED SPANISH ERRATA",
+   "edition_page": "SE2023",
+   "forum": "Rules",
+   "total_posts": 13,
+   "read_posts": 13,
+   "created": "2023-10-29"
+  },
+  {
+   "thread_id": 3191719,
+   "url": "https://boardgamegeek.com/thread/3191719/how-do-you-ease-the-setup-organizer-insert",
+   "title": "How do you ease the setup? (organizer? Insert?) ",
+   "edition_page": "2019",
+   "forum": "General",
+   "total_posts": 13,
+   "read_posts": 13,
+   "created": "2023-11-16"
+  },
+  {
+   "thread_id": 3216622,
+   "url": "https://boardgamegeek.com/thread/3216622/special-edition-on-bga",
+   "title": "Special Edition on BGA?",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 2,
+   "read_posts": 2,
+   "created": "2023-12-30"
+  },
+  {
+   "thread_id": 3245043,
+   "url": "https://boardgamegeek.com/thread/3245043/2-player-vineyard-setup",
+   "title": "2 player vineyard setup?",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 4,
+   "read_posts": 4,
+   "created": "2024-02-11"
+  },
+  {
+   "thread_id": 3260475,
+   "url": "https://boardgamegeek.com/thread/3260475/poll-which-expansions-do-you-play-with",
+   "title": "Poll: Which expansions do you play with?",
+   "edition_page": "SE2023",
+   "forum": "Variants",
+   "total_posts": 9,
+   "read_posts": 9,
+   "created": "2024-03-05"
+  },
+  {
+   "thread_id": 3289038,
+   "url": "https://boardgamegeek.com/thread/3289038/scoring-marker-ideas-geekgold-for-help",
+   "title": "Scoring Marker Ideas (GeekGold for Help!)",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 21,
+   "read_posts": 21,
+   "created": "2024-04-23"
+  },
+  {
+   "thread_id": 3292786,
+   "url": "https://boardgamegeek.com/thread/3292786/do-you-see-your-3-random-goods-before-or-after-set",
+   "title": "Do you see your 3 random goods before or after setting up trade routes?",
+   "edition_page": "SE2023",
+   "forum": "Rules",
+   "total_posts": 5,
+   "read_posts": 5,
+   "created": "2024-04-29"
+  },
+  {
+   "thread_id": 3335225,
+   "url": "https://boardgamegeek.com/thread/3335225/end-of-game-scoring-tiles-playing-on-yucata",
+   "title": "End of game scoring tiles playing on Yucata...",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 10,
+   "read_posts": 10,
+   "created": "2024-07-17"
+  },
+  {
+   "thread_id": 3352028,
+   "url": "https://boardgamegeek.com/thread/3352028/how-to-determine-expansions",
+   "title": "How to determine expansions?",
+   "edition_page": "2019",
+   "forum": "General",
+   "total_posts": 11,
+   "read_posts": 11,
+   "created": "2024-08-17"
+  },
+  {
+   "thread_id": 3460477,
+   "url": "https://boardgamegeek.com/thread/3460477/handicap-calculation-appcite",
+   "title": "Handicap calculation app/cite?",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 9,
+   "read_posts": 9,
+   "created": "2025-02-13"
+  },
+  {
+   "thread_id": 3515532,
+   "url": "https://boardgamegeek.com/thread/3515532/random-map-generator-webapp",
+   "title": "Random Map Generator WebApp",
+   "edition_page": "2011",
+   "forum": "Variants",
+   "total_posts": 6,
+   "read_posts": 6,
+   "created": "2025-05-21"
+  },
+  {
+   "thread_id": 3534509,
+   "url": "https://boardgamegeek.com/thread/3534509/error-with-knowledge-tile-7-in-app",
+   "title": "Error with Knowledge tile #7 in app.",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 3,
+   "read_posts": 2,
+   "created": "2025-06-29"
+  },
+  {
+   "thread_id": 3640203,
+   "url": "https://boardgamegeek.com/thread/3640203/white-castle-player-turn-track-clarifications-and",
+   "title": "White Castle, player turn track clarifications and other questions",
+   "edition_page": "SE2023",
+   "forum": "Rules",
+   "total_posts": 8,
+   "read_posts": 8,
+   "created": "2026-01-06"
+  },
+  {
+   "thread_id": 3668180,
+   "url": "https://boardgamegeek.com/thread/3668180/get-to-playing-dynamic-website",
+   "title": "\"Get To Playing\" - Dynamic Website",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 16,
+   "read_posts": 16,
+   "created": "2026-02-24"
+  },
+  {
+   "thread_id": 3681128,
+   "url": "https://boardgamegeek.com/thread/3681128/alea-version-2p-setup",
+   "title": "Alea version 2P Setup?",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 5,
+   "read_posts": 5,
+   "created": "2026-03-21"
+  },
+  {
+   "thread_id": 3789213,
+   "url": "https://boardgamegeek.com/thread/3789213/tile-quick-reference-website",
+   "title": "Tile Quick Reference Website",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 3,
+   "read_posts": 3,
+   "created": "2026-10-28"
+  },
+  {
+   "thread_id": 3792387,
+   "url": "https://boardgamegeek.com/thread/3792387/after-playing-an-introductory-game-with-my-friends",
+   "title": "After playing an introductory game with my friends, during which we all made quite a few mistakes, we played another game today (4P again), and I won with 245 points. I love this game!",
+   "edition_page": "SE2023",
+   "forum": "General",
+   "total_posts": 4,
+   "read_posts": 4,
+   "created": "2026-11-02"
+  },
+  {
+   "thread_id": 630913,
+   "url": "https://boardgamegeek.com/thread/630913/tiebreaker-in-different-language-rules",
+   "title": "Tiebreaker in different language rules",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 44,
+   "read_posts": 44,
+   "created": "2011-03-15"
+  },
+  {
+   "thread_id": 748659,
+   "url": "https://boardgamegeek.com/thread/748659/turn-order-and-boats",
+   "title": "Turn Order and Boats",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 27,
+   "read_posts": 27,
+   "created": "2012-01-09"
+  },
+  {
+   "thread_id": 784983,
+   "url": "https://boardgamegeek.com/thread/784983/phase-set-up-questions",
+   "title": "phase set-up questions",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 6,
+   "read_posts": 6,
+   "created": "2012-03-29"
+  },
+  {
+   "thread_id": 854339,
+   "url": "https://boardgamegeek.com/thread/854339/castles-module-for-ios-score-app",
+   "title": "Castles module for iOS Score App",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 1,
+   "read_posts": 1,
+   "created": "2012-09-10"
+  },
+  {
+   "thread_id": 869737,
+   "url": "https://boardgamegeek.com/thread/869737/12-bonus-tiles-what-are-they-for",
+   "title": "12 Bonus tiles what are they for?",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 10,
+   "read_posts": 10,
+   "created": "2012-10-14"
+  },
+  {
+   "thread_id": 888261,
+   "url": "https://boardgamegeek.com/thread/888261/clarification-on-setup-for-each-phase",
+   "title": "Clarification on 'Setup for each phase'",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 8,
+   "read_posts": 7,
+   "created": "2012-11-23"
+  },
+  {
+   "thread_id": 888264,
+   "url": "https://boardgamegeek.com/thread/888264/remove-all-black-backed-tiles-during-new-phase-set",
+   "title": "Remove all black-backed tiles during new phase setup too? ",
+   "edition_page": "2011",
+   "forum": "Rules",
+   "total_posts": 19,
+   "read_posts": 16,
+   "created": "2012-11-23"
+  },
+  {
+   "thread_id": 917411,
+   "url": "https://boardgamegeek.com/thread/917411/different-setup-for-beginners",
+   "title": "Different setup for beginners?",
+   "edition_page": "2011",
+   "forum": "General",
+   "total_posts": 10,
+   "read_posts": 9,
+   "created": "2013-01-21"
+  }
+ ]
+}

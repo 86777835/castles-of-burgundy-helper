@@ -1,0 +1,288 @@
+{
+ "source": "api.geekdo.com linkeditems boardgameversion, 2026-11-06",
+ "84876": "2011 原版",
+ "271320": "2019 新版",
+ "363622": "2023 特别版",
+ "versions": {
+  "84876": [
+   {
+    "versionid": "317166",
+    "name": "勃根地城堡 (Chinese/English edition)",
+    "year": "2016",
+    "publishers": [
+     "Broadway Toys LTD"
+    ]
+   },
+   {
+    "versionid": "363499",
+    "name": "I Castelli della Borgogna (Giochi Uniti Italian edition)",
+    "year": "2017",
+    "publishers": [
+     "Giochi Uniti"
+    ]
+   },
+   {
+    "versionid": "365582",
+    "name": "The Castles of Burgundy (Grow Portuguese edition)",
+    "year": "2017",
+    "publishers": [
+     "Grow Jogos e Brinquedos"
+    ]
+   },
+   {
+    "versionid": "269360",
+    "name": "Замки Бургундии (Hobby World Russian edition)",
+    "year": "2015",
+    "publishers": [
+     "Hobby World"
+    ]
+   },
+   {
+    "versionid": "357732",
+    "name": "Zamki Burgundii (Polish edition)",
+    "year": "2017",
+    "publishers": [
+     "alea",
+     "Rebel Sp. z o.o."
+    ]
+   },
+   {
+    "versionid": "141049",
+    "name": "The Castles of Burgundy (Ravensburger English/French edition)",
+    "year": "2011",
+    "publishers": [
+     "alea",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "69303",
+    "name": "Die Burgen von Burgund (Ravensburger multilingual first edition)",
+    "year": "2011",
+    "publishers": [
+     "alea",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "134173",
+    "name": "Die Burgen von Burgund (Ravensburger multilingual second edition)",
+    "year": "2011",
+    "publishers": [
+     "alea",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "370436",
+    "name": "Los Castillos de Borgoña (Spanish edition)",
+    "year": "2017",
+    "publishers": [
+     "Maldito Games"
+    ]
+   }
+  ],
+  "271320": [
+   {
+    "versionid": "529882",
+    "name": "勃根地城堡豪華版 (Chinese/English edition)",
+    "year": "2020",
+    "publishers": [
+     "alea",
+     "Broadway Toys LTD"
+    ]
+   },
+   {
+    "versionid": "661031",
+    "name": "Hrady v Burgundsku (Czech edition)",
+    "year": "2023",
+    "publishers": [
+     "alea"
+    ]
+   },
+   {
+    "versionid": "443218",
+    "name": "The Castles of Burgundy (English/French/German edition)",
+    "year": "2019",
+    "publishers": [
+     "alea",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "699713",
+    "name": "버건디의 성 (Korean edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Korea Boardgames"
+    ]
+   },
+   {
+    "versionid": "516503",
+    "name": "The Castles of Burgundy (Multilingual edition)",
+    "year": "2020",
+    "publishers": [
+     "alea",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "503558",
+    "name": "Zamki Burgundii (Polish edition 2020)",
+    "year": "2020",
+    "publishers": [
+     "alea",
+     "Rebel Sp. z o.o."
+    ]
+   },
+   {
+    "versionid": "755912",
+    "name": "Zamki Burgundii (Polish edition 2023)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "581209",
+    "name": "The Castles of Burgundy (Ukrainian edition)",
+    "year": "2021",
+    "publishers": [
+     "Lelekan"
+    ]
+   }
+  ],
+  "363622": [
+   {
+    "versionid": "687423",
+    "name": "The Castles of Burgundy: Special Edition (Dutch edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "616627",
+    "name": "The Castles of Burgundy: Special Edition (English edition)",
+    "year": "2024",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "676863",
+    "name": "The Castles of Burgundy: Special Edition (English sundrop edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "639169",
+    "name": "The Castles of Burgundy: Special Edition (French edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "680256",
+    "name": "The Castles of Burgundy: Special Edition (French sundrop edition)",
+    "year": "2023",
+    "publishers": [
+     "Awaken Realms"
+    ]
+   },
+   {
+    "versionid": "639168",
+    "name": "The Castles of Burgundy: Special Edition (German edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "641016",
+    "name": "The Castles of Burgundy: Special Edition (Hungarian edition)",
+    "year": "2023",
+    "publishers": [
+     "Awaken Realms",
+     "Delta Vision Publishing"
+    ]
+   },
+   {
+    "versionid": "639167",
+    "name": "The Castles of Burgundy: Special Edition (Italian edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "625326",
+    "name": "Zamki Burgundii: Edycja Specjalna (Polish edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "722072",
+    "name": "勃艮第城堡：特别典藏版 (Simplified Chinese edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "YOKA Games"
+    ]
+   },
+   {
+    "versionid": "639170",
+    "name": "The Castles of Burgundy: Special Edition (Spanish edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "792113",
+    "name": "The Castles of Burgundy: Special Edition (Spanish sundrop edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "Ravensburger AG"
+    ]
+   },
+   {
+    "versionid": "679995",
+    "name": "The Castles of Burgundy: Special Edition (Traditional Chinese edition)",
+    "year": "2023",
+    "publishers": [
+     "alea",
+     "Awaken Realms",
+     "GoKids 玩樂小子",
+     "Ravensburger AG"
+    ]
+   }
+  ]
+ }
+}

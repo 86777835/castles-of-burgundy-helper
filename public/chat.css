@@ -1,0 +1,19 @@
+/* rules assistant panel (bottom right), same layout as the sister sites */
+.cfab{position:fixed;right:16px;bottom:20px;z-index:20;background:var(--wine);color:#fbf3e4;border:1px solid var(--gold);border-radius:24px;box-shadow:0 3px 12px rgba(0,0,0,.25);font-weight:700}
+.cpanel{position:fixed;bottom:14px;right:14px;z-index:40;width:min(410px,calc(100vw - 28px));height:min(620px,calc(100dvh - 30px));display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:0 10px 45px rgba(0,0,0,.35);overflow:hidden}
+.chd{display:flex;align-items:center;padding:12px 14px;gap:10px;background:var(--wine);color:#fbf3e4}
+.chd>div{flex:1}.chd span:not(.cav){display:block;font-size:11px;color:var(--gold2)}
+.cx{background:none;color:#fff;border:0;font-size:25px}
+.cav{border-radius:50%;width:34px;height:34px;object-fit:cover;flex-shrink:0;background:var(--gold2)}
+.band{height:3px;background:var(--gold)}
+.clog{flex:1;overflow:auto;padding:15px}
+.cwel{display:flex;gap:10px;align-items:center}.cwel img{width:64px;height:64px;object-fit:cover;border-radius:8px}.cwel span{display:block;font-size:13px;color:var(--muted)}
+.csug{display:flex;flex-direction:column;gap:8px;margin:20px 0}.csug em{font-size:12px;font-style:normal;color:var(--muted)}.csug button{font-size:14px;text-align:left;justify-content:flex-start}
+.cin{display:flex;padding:10px;gap:10px;border-top:1px solid var(--line)}.cin textarea{min-height:45px;height:48px}.cin button{background:var(--wine);color:#fff;border-color:var(--wine)}
+.cfoot{font-size:11px;color:var(--muted);text-align:center;padding:0 10px 10px}
+.cr{display:flex;gap:8px;margin:15px 0}.cr.u{justify-content:flex-end}
+.cm{font-size:14px;padding:10px 12px;border-radius:10px;background:#fff;border:1px solid #ece7dd;overflow-wrap:anywhere}.cm.u{background:#f1e4d2;border-color:#e6d3b8}.cm.err{color:#9b2a1f}
+.cav.sm{width:26px;height:26px}
+.cdots{display:inline-flex;gap:3px}.cdots b{width:6px;height:6px;border-radius:50%;background:var(--soft);animation:cd 1s infinite}.cdots b:nth-child(2){animation-delay:.15s}.cdots b:nth-child(3){animation-delay:.3s}
+@keyframes cd{50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){.cdots b{animation:none}}

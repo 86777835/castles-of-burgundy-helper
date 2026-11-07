@@ -1,0 +1,186 @@
+{
+ "date": "2026-11-06",
+ "note": "Reddit 官网与 WebSearch 均被拦截，经 Arctic Shift 存档 API 读取 r/boardgames 标题含 castles of burgundy 的最近 100 帖（最早 2024-11），选读 20 帖。score/num_comments 为存档抓取时的值，可能与现网不同。",
+ "posts": [
+  {
+   "id": "1h0rq0c",
+   "url": "https://www.reddit.com/r/boardgames/comments/1h0rq0c/castles_of_burgundy_special_edition_organization/",
+   "title": "Castles of Burgundy Special Edition Organization?",
+   "score": 5,
+   "num_comments": 3,
+   "comments_read": 3,
+   "created": "2024-11-27"
+  },
+  {
+   "id": "1hfhgur",
+   "url": "https://www.reddit.com/r/boardgames/comments/1hfhgur/castles_of_burgundy_first_round_question/",
+   "title": "Castles of Burgundy first round question ",
+   "score": 10,
+   "num_comments": 11,
+   "comments_read": 11,
+   "created": "2024-12-16"
+  },
+  {
+   "id": "1hqx8b5",
+   "url": "https://www.reddit.com/r/boardgames/comments/1hqx8b5/castles_of_burgundy_tiebreaker_anomaly/",
+   "title": "Castles of Burgundy Tiebreaker anomaly",
+   "score": 1,
+   "num_comments": 3,
+   "comments_read": 3,
+   "created": "2025-01-01"
+  },
+  {
+   "id": "1ibz065",
+   "url": "https://www.reddit.com/r/boardgames/comments/1ibz065/castles_of_burgundy_special_ed/",
+   "title": "Castles of Burgundy Special Ed.",
+   "score": 384,
+   "num_comments": 137,
+   "comments_read": 100,
+   "created": "2025-01-28"
+  },
+  {
+   "id": "1kdinmf",
+   "url": "https://www.reddit.com/r/boardgames/comments/1kdinmf/is_it_me_or_does_the_folded_space_castles_of/",
+   "title": "Is it me or does the Folded Space Castles of Burgundy v2 insert suck ass?",
+   "score": 8,
+   "num_comments": 10,
+   "comments_read": 13,
+   "created": "2025-05-03"
+  },
+  {
+   "id": "1lby68z",
+   "url": "https://www.reddit.com/r/boardgames/comments/1lby68z/castles_of_burgundy_why_cant_i_place_building/",
+   "title": "Castles of Burgundy - why cant I place building?",
+   "score": 53,
+   "num_comments": 17,
+   "comments_read": 17,
+   "created": "2025-06-15"
+  },
+  {
+   "id": "1lr1zea",
+   "url": "https://www.reddit.com/r/boardgames/comments/1lr1zea/attempting_to_learn_castles_of_burgundy_and_am/",
+   "title": "Attempting (!) to learn Castles of Burgundy, and am frustrated. Any advice?",
+   "score": 1,
+   "num_comments": 13,
+   "comments_read": 15,
+   "created": "2025-07-03"
+  },
+  {
+   "id": "1lt2sb3",
+   "url": "https://www.reddit.com/r/boardgames/comments/1lt2sb3/castles_of_burgundy_setup_and_scoring_cheat_sheet/",
+   "title": "Castles of Burgundy - Setup and Scoring Cheat Sheet",
+   "score": 14,
+   "num_comments": 10,
+   "comments_read": 11,
+   "created": "2025-07-06"
+  },
+  {
+   "id": "1oqc4f0",
+   "url": "https://www.reddit.com/r/boardgames/comments/1oqc4f0/i_filled_out_the_board_in_castles_of_burgundy_was/",
+   "title": "i filled out the board in castles of burgundy was under impression it was impossible",
+   "score": 131,
+   "num_comments": 27,
+   "comments_read": 31,
+   "created": "2025-11-06"
+  },
+  {
+   "id": "1pphko3",
+   "url": "https://www.reddit.com/r/boardgames/comments/1pphko3/i_got_the_alea_anniversary_castles_of_burgundy/",
+   "title": "I got the Alea Anniversary Castles of Burgundy recently. I feel like Im losing my mind when people call it ugly online",
+   "score": 0,
+   "num_comments": 19,
+   "comments_read": 20,
+   "created": "2025-12-18"
+  },
+  {
+   "id": "1qjs6r9",
+   "url": "https://www.reddit.com/r/boardgames/comments/1qjs6r9/the_2019_edition_of_castles_of_burgundy_is/",
+   "title": "The 2019 edition of Castles of Burgundy is absolutely hideous and hard to read.",
+   "score": 16,
+   "num_comments": 28,
+   "comments_read": 34,
+   "created": "2026-01-22"
+  },
+  {
+   "id": "1s8uveq",
+   "url": "https://www.reddit.com/r/boardgames/comments/1s8uveq/castles_of_burgundy_special_edition_overview_of/",
+   "title": "Castles of Burgundy Special Edition: overview of all the options (ELIF)",
+   "score": 5,
+   "num_comments": 14,
+   "comments_read": 21,
+   "created": "2026-03-31"
+  },
+  {
+   "id": "1u2bic1",
+   "url": "https://www.reddit.com/r/boardgames/comments/1u2bic1/castles_of_burgundy_what_am_i_doing_wrong/",
+   "title": "Castles of Burgundy – what am I doing wrong?!",
+   "score": 0,
+   "num_comments": 32,
+   "comments_read": 33,
+   "created": "2026-06-10"
+  },
+  {
+   "id": "1ud23wi",
+   "url": "https://www.reddit.com/r/boardgames/comments/1ud23wi/the_castles_of_burgundy_first_play/",
+   "title": "The Castles of Burgundy: first play",
+   "score": 109,
+   "num_comments": 26,
+   "comments_read": 27,
+   "created": "2026-06-23"
+  },
+  {
+   "id": "1vbs3ij",
+   "url": "https://www.reddit.com/r/boardgames/comments/1vbs3ij/castles_of_burgundy_tiny_tiles_are_too_hard_to_see/",
+   "title": "Castles of Burgundy - tiny tiles are too hard to see",
+   "score": 39,
+   "num_comments": 43,
+   "comments_read": 46,
+   "created": "2026-07-31"
+  },
+  {
+   "id": "1vhhv4y",
+   "url": "https://www.reddit.com/r/boardgames/comments/1vhhv4y/i_completely_filled_my_castles_of_burgundy_board/",
+   "title": "I completely filled my Castles of Burgundy board",
+   "score": 290,
+   "num_comments": 49,
+   "comments_read": 52,
+   "created": "2026-08-06"
+  },
+  {
+   "id": "1vjpggr",
+   "url": "https://www.reddit.com/r/boardgames/comments/1vjpggr/castles_of_burgundy_expansions/",
+   "title": "Castles of Burgundy expansions.",
+   "score": 16,
+   "num_comments": 9,
+   "comments_read": 13,
+   "created": "2026-08-09"
+  },
+  {
+   "id": "1vp6uxj",
+   "url": "https://www.reddit.com/r/boardgames/comments/1vp6uxj/castles_of_burgundy_doesnt_seem_beginner_friendly/",
+   "title": "Castles of Burgundy doesn't seem beginner friendly",
+   "score": 0,
+   "num_comments": 41,
+   "comments_read": 44,
+   "created": "2026-08-15"
+  },
+  {
+   "id": "1vvlnz5",
+   "url": "https://www.reddit.com/r/boardgames/comments/1vvlnz5/learning_a_new_game_castles_of_burgundy_question/",
+   "title": "Learning a new game (Castles of Burgundy question)",
+   "score": 7,
+   "num_comments": 27,
+   "comments_read": 27,
+   "created": "2026-08-22"
+  },
+  {
+   "id": "1wwkz7t",
+   "url": "https://www.reddit.com/r/boardgames/comments/1wwkz7t/castles_of_burgundy_question_about_goods/",
+   "title": "Castles of burgundy. Question about goods",
+   "score": 9,
+   "num_comments": 6,
+   "comments_read": 6,
+   "created": "2026-10-03"
+  }
+ ]
+}

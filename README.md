@@ -2,10 +2,10 @@
 
 线下对局《勃艮第城堡》的中文手机助手，重点是开局准备：按版本和人数告诉玩家怎么摆、每个阶段补什么。纯原生 JavaScript，Cloudflare Workers + 静态资源 + Durable Objects，没有构建步骤。
 
-- 计划地址：https://burgundy.leisurecat.cloud（**尚未部署**）
+- 线上：https://burgundy.leisurecat.cloud（2026-11-08 上线），仓库 86777835/castles-of-burgundy-helper
 - Worker 名：`castles-of-burgundy-helper`
 - rate limit `namespace_id`：1111
-- 结算评价 game key：`castles-of-burgundy`（要先加进总入口 `games.json`，评价接口才接受）
+- 结算评价 game key：`castles-of-burgundy`（已加进总入口 `games.json`）
 
 做什么、不做什么，以及用户的确认结果，见 [docs/调研清单.md](docs/调研清单.md)。规则依据和没核实的地方见 [docs/规则核验.md](docs/规则核验.md)。
 
@@ -39,14 +39,14 @@ node tests/run.mjs                                     # 另开终端
 
 `tests/run.mjs` 依次跑 9 个测试，结果写进 `tests/测试结果.md`，截图在 `/tmp/claude-501/burgundy_shots/`。完整对局测试只能对 localhost 跑；评价接口全部用 `page.route` 拦截，不往线上写数据。规则助手测试用无密钥模式和拦截的流式回答，不调用真实模型。
 
-## 部署（需用户同意后）
+## 部署
 
 ```sh
 wrangler deploy
 wrangler secret put DEEPSEEK_API_KEY --name castles-of-burgundy-helper   # 由用户自己运行
 ```
 
-上线后接入总入口：`games.json` 加 `url`、`box`（建议典藏版 27×37×16.4 cm）和封面 `img/box-castles-of-burgundy.jpg`；`/api/ask` 的 `services`、`ASK_BINDINGS`、`ask-router.js` 别名和 `tests/mock/`。
+已接入总入口：`games.json`（box 27×37×16.4，排在阿瓦隆和散樱乱武之间）、转盘封面、`/api/ask` 绑定 `ASK_BURGUNDY`、问答专属词和 `tests/mock/burgundy.jsonc`。
 
 ## 版权
 

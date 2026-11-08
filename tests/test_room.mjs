@@ -7,7 +7,7 @@ try {
   for (const x of [p, q]) x.on('pageerror', e => errors.push(e.message));
   const code = await room(p);
   await pick(p, 'n', 3); await mod(p, 'shields'); await mod(p, 'inns');
-  await p.fill('[data-player="p0"][data-field="name"]', '阿青'); await p.locator('[data-player="p0"][data-field="name"]').blur(); await act(p, 'randomFirst');
+  await p.fill('[data-player="p0"][data-field="name"]', '阿青'); await p.locator('[data-player="p0"][data-field="name"]').blur(); assert.match(await p.locator('[data-act="order"]').innerText(), /手指轮盘/); await pick(p, 'first', 1);
   await q.goto(p.url()); await q.waitForSelector('#checklist');
   assert(await q.locator('[data-act="begin"]').isDisabled(), 'guest cannot start');
   assert.match(await q.locator('#checklist').innerText(), /1、3、5 号各 1 块，2、4、6 号各 2 块/);

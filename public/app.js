@@ -7,6 +7,8 @@ import {morph, esc} from './dom.js';
 const $ = s => document.querySelector(s);
 const params = new URLSearchParams(location.search);
 const code = params.get('r');
+// 定先手用总入口的手指轮盘 / 抽签，点「返回」回到这里
+const orderUrl = n => `https://boardgame.leisurecat.cloud/?order=${n}&back=${encodeURIComponent(location.href)}`;
 const store = {get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} }};
 const actor = store.get('cob-actor') || crypto.randomUUID();
 store.set('cob-actor', actor);
@@ -137,7 +139,7 @@ function setup() {
   <section class="card"><h2>${c.team ? '队员' : m === 'solo' ? '玩家' : '座位'}</h2>
    <p class="note">${c.team ? '按 A1、A2、B1、B2 填。同队的尽量坐在一起。' : m === 'solo' ? '' : '按顺时针填。'}</p>
    ${ps.map((p, i) => seat(p, i, c, dis)).join('')}
-   ${m === 'multi' && !c.team ? `<h3>起始玩家</h3>${seg('config', 'first', ps.map((p, i) => [i, esc(p.name)]), c.first, dis)}<button type="button" class="small" data-act="randomFirst" ${dis}>随机选一位</button>
+   ${m === 'multi' && !c.team ? `<h3>起始玩家</h3>${seg('config', 'first', ps.map((p, i) => [i, esc(p.name)]), c.first, dis)}<button type="button" class="small" data-act="order" ${dis}>手指轮盘定先手 ›</button>
    <p class="note">也可以照规则书掷骰（点数最大的先手），再在这里点他的名字。</p>` : ''}</section>
   <section class="card" id="checklist"><button type="button" class="fold" data-act="fold" aria-expanded="${ui.prepOpen}"><h2>开局清单</h2><span class="count">${done} / ${all.length}</span></button>
    ${ui.prepOpen ? `<p class="note">按顺序摆。勾选会同步给全桌；不勾也能开始。</p>${items.map(sec => `<h3>${sec.title}</h3>${checklist(sec.items, S.checks, 'setup', anyone())}`).join('')}` : ''}</section>
@@ -320,7 +322,7 @@ $('#app').addEventListener('click', async e => {
     }
     else if (a === 'config') { const v = b.dataset.val, k = b.dataset.key; setConfig({[k]: ['n', 'first'].includes(k) ? Number(v) : v}); }
     else if (a === 'mod') setConfig({mods: {...S.config.mods, [b.dataset.val]: !S.config.mods[b.dataset.val]}});
-    else if (a === 'randomFirst') setConfig({first: rand(S.config.n)});
+    else if (a === 'order') location.href = orderUrl(S.config.n);
     else if (a === 'draw') {
       const nums = S.config.pool.flatMap(k => { const [lo, hi] = POOLS[k]; return Array.from({length: hi - lo + 1}, (_, i) => String(lo + i)); });
       send({t: 'boards', boards: S.players.map((p, i) => i < S.config.n ? nums[rand(nums.length)] : p.board)});

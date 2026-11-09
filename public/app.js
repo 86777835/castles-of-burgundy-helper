@@ -76,7 +76,7 @@ setInterval(() => { if (ws?.readyState === 1) ws.send('ping'); }, 25000);
 // ---------- landing ----------
 function landing() {
   const rooms = ui.rooms.map(r => `<a class="room" href="/?r=${r.code}"><b class="rcode">${r.code}</b><span class="rinfo"><span>${esc(r.players.join('、'))}</span><small>${esc(summary(r.config))}</small></span><span class="chip ${r.stage === 'over' ? '' : 'live'}">${r.stage === 'play' ? PHASES[r.phase] + ' 阶段' : STAGE[r.stage] || '对局中'}</span></a>`).join('');
-  return `<header class="hero"><a class="back-nav" href="https://boardgame.leisurecat.cloud">‹ 全部游戏</a>
+  return `<header class="hero"><a class="back-nav" href="https://boardgame.leisurecat.cloud">‹ 全部游戏</a><a class="back-nav rate-nav" href="https://boardgame.leisurecat.cloud/?rate=castles-of-burgundy&back=${encodeURIComponent(location.href)}">★ 写评价</a>
   <img class="cover" src="/img/cover.jpg" width="128" height="162" alt="勃艮第城堡：特别典藏版简体中文版官方封面">
   <h1>勃艮第城堡助手</h1><p class="motto">按人数告诉你怎么摆、每阶段补什么</p></header>
   <main class="landing">

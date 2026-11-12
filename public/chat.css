@@ -17,3 +17,10 @@
 .cdots{display:inline-flex;gap:3px}.cdots b{width:6px;height:6px;border-radius:50%;background:var(--soft);animation:cd 1s infinite}.cdots b:nth-child(2){animation-delay:.15s}.cdots b:nth-child(3){animation-delay:.3s}
 @keyframes cd{50%{opacity:.3}}
 @media (prefers-reduced-motion:reduce){.cdots b{animation:none}}
+/* web search answers: label, sources, waiting line */
+.cweb{margin:-2px 0 6px;padding:5px 8px;border-radius:7px;background:#f3e7d6;font-size:12px;line-height:1.5;color:var(--muted)}
+.cweb b{color:var(--wine)}
+.csrc{margin-top:8px;padding-top:6px;border-top:1px dashed var(--line);font-size:12px;line-height:1.5;color:var(--muted)}
+.csrc a{display:block;color:var(--river);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.csrc i{margin-left:6px;font-style:normal;color:var(--soft)}
+.cwait{display:block;margin-bottom:4px;font-size:13px;color:var(--muted)}

@@ -18,6 +18,9 @@
 - **结算**：排名、长图、修改分数、自动存档，系列统一评价卡。
 - **新手教程 / 常见问题 / 易错规则**（`guide.html`）、**板块速查**（`tiles.html`，按版本、种类、编号查），**往期对局**（`history.html`）。
 - **规则助手**（右下角“规则”）：`/api/chat`，只依据 `tools/讲解稿.md`、`tools/faq.json` 和 `public/tiles-data.js` 回答。模型顺序、超时切换和系列一致；本站不设 cron，`CHAT_STATE` 绑定匹兹堡的 KV，只读它写的 `deepseek-down`。回答下方不显示模型名。
+  - **联网查找**（2026-11-12，照匹兹堡移植，用户批准的兜底）：本站资料答不了、又确实是勃艮第城堡的规则问题时，模型只回一行 `【需联网】` 加英文搜索词（以 Castles of Burgundy 开头，涉及典藏版时写 Castles of Burgundy Special Edition）。服务器调 DeepSeek 搜索接口 `/v1/tools/search`：先搜 BGG，不到 3 条再搜全网，最多 6 条，每次 6 秒超时；再让模型只依据这些摘要回答，用 [1] [2] 标出处。因为三个版本规则不同，要求模型写明说法属于哪个版本，看不出版本就提醒玩家按自己手里的版本核对。
+  - 页面先显示“本站资料里没有，正在联网查找…”，回答上方固定标“以下来自网上讨论，本站未核对”，下面列来源链接。没搜到或搜索失败时给固定说明，不编答案。发回服务器的历史只带回答正文。
+  - 日志 `chat web search` 记下搜索词和结果条数，核对后可以补进常见问题。实测联网回答大约 4–5 秒出完。
 
 ## 文件
 
@@ -38,6 +41,17 @@ node tests/run.mjs                                     # 另开终端
 ```
 
 `tests/run.mjs` 依次跑 9 个测试，结果写进 `tests/测试结果.md`，截图在 `/tmp/claude-501/burgundy_shots/`。完整对局测试只能对 localhost 跑；评价接口全部用 `page.route` 拦截，不往线上写数据。规则助手测试用无密钥模式和拦截的流式回答，不调用真实模型。
+
+联网查找另跑一组（本地假 DeepSeek，在 8790 端口模拟对话和搜索接口；和别的规则助手测试之间隔 1 分钟以上，免得撞上每分钟 8 问的限流）：
+
+```sh
+wrangler dev --port 8951 --var DEEPSEEK_API_KEY:fake --var DEEPSEEK_BASE:http://127.0.0.1:8790 --var CHAT_CF_MODEL:@cf/none/missing
+node tests/test_chat.mjs http://localhost:8951/ /tmp/claude-501/burgundy_shots --mock-web
+```
+
+覆盖：资料能答不联网、标记拆在两个数据块里、先解释最后才给标记、没搜到、搜索接口出错、无关问题不联网、历史不带标签和来源。
+
+如果 `/tmp/claude-501/pgh2/node_modules` 被清掉了，就新建这个目录，在里面运行 `npm i playwright-core`。
 
 ## 部署
 

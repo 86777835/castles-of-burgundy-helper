@@ -7,7 +7,7 @@ try {
   p.on('pageerror', e => errors.push(e.message));
   async function check(label) {
     await p.evaluate(() => scrollTo(0, 0));
-    const bad = await p.locator('.back-nav').evaluate(nav => {
+    const bad = await p.locator('.back-nav:not(.rate-nav)').evaluate(nav => {
       const a = nav.getBoundingClientRect(), out = [];
       if (a.height < 36 || a.top < 0) out.push('back button not visible');
       if (document.documentElement.scrollWidth > innerWidth) out.push('horizontal overflow');
@@ -21,15 +21,15 @@ try {
     assert.deepEqual(bad, [], label); console.log('PASS layout', label);
   }
   await p.goto(BASE);
-  assert.equal(await p.locator('.back-nav').textContent(), '‹ 全部游戏');
-  assert.equal(await p.locator('.back-nav').getAttribute('href'), 'https://boardgame.leisurecat.cloud');
+  assert.equal(await p.locator('.back-nav:not(.rate-nav)').textContent(), '‹ 全部游戏');
+  assert.equal(await p.locator('.back-nav:not(.rate-nav)').getAttribute('href'), 'https://boardgame.leisurecat.cloud');
   await check('landing'); await shot(p, 'landing');
-  const code = await room(p); assert.equal(await p.locator('.back-nav').textContent(), '‹ 首页'); await check('setup');
+  const code = await room(p); assert.equal(await p.locator('.back-nav:not(.rate-nav)').textContent(), '‹ 首页'); await check('setup');
   await act(p, 'begin'); await check('play'); await shot(p, 'play');
   for (const page of ['guide', 'tiles', 'history']) {
     await p.goto(new URL(`${page}.html?r=${code}`, BASE).href);
-    assert.equal(await p.locator('.back-nav').textContent(), '‹ 返回');
-    assert.equal(await p.locator('.back-nav').getAttribute('href'), '/?r=' + code);
+    assert.equal(await p.locator('.back-nav:not(.rate-nav)').textContent(), '‹ 返回');
+    assert.equal(await p.locator('.back-nav:not(.rate-nav)').getAttribute('href'), '/?r=' + code);
     await check(page); await shot(p, page);
     await p.setViewportSize({width: 320, height: 700}); await check(page + ' 320px'); await p.setViewportSize({width: 390, height: 844});
   }

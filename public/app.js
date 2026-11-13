@@ -87,6 +87,7 @@ function landing() {
     <form id="join" class="join"><label class="sr-only" for="joinCode">房间码</label><input id="joinCode" placeholder="房间码" maxlength="4" required autocapitalize="characters" autocomplete="off"><button class="dark">加入</button></form>
     <button class="linkish" data-act="quick">已经摆好了？直接去终局计分 ›</button>
    </section>
+   <a class="teachgo" href="/teach"><span class="hexico" style="--h:var(--wine)">讲</span><span><b>第一次玩？4 分钟讲规则</b>照着念就能开局，不懂的词点一下</span><i>›</i></a>
    <nav class="tiles">
     <a class="tile" href="/guide.html"><span class="hexico" style="--h:var(--castle)">教</span><span><b>新手教程</b><small>流程、计分、易错点</small></span></a>
     <a class="tile" href="/tiles.html"><span class="hexico" style="--h:var(--mon)">查</span><span><b>板块速查</b><small>修道院、建筑、盾徽</small></span></a>

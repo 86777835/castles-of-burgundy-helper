@@ -16,6 +16,7 @@
 - **阶段清单**：一个阶段一屏。阶段开始的补货清单（按人数，3 人局 B、D 阶段特别提醒），每轮流程，本局速算（区域分表、卖货分、奖励分），阶段结束清单。主持人每阶段点一次进入下一阶段。
 - **终局计分**：每人录分数轨上的分、剩余货物、银币、工人、计分类修道院（可用小工具算），有扩展时加盾徽、葡萄园。同分时才要求填空格数和回合顺位，按所选版本的规则判定。团队游戏按队计分，自动机录一个总分，官方单人只记成功与否。
 - **结算**：排名、长图、修改分数、自动存档，系列统一评价卡。
+- **4 分钟讲规则**（`teach.html`，地址 `/teach`，2026-11-13 照匹兹堡移植）：首页“建一个房间”下面的入口卡片进入。讲的人照着念主流程（6 段，约 1200 字），再一条条过 19 条注意事项（写好答案，默认收起）。按简中特别典藏版讲，老版本的差别（平局判定相反、6/15/26 号修道院）放在最后两条注意事项里，不做版本开关。带下划线的词点开看规则书原图和注释；「问」按钮和注释里的按钮直接问规则助手（`chat.js` 的 `window.askRules`）。页底有图标速查（31 张图）。
 - **新手教程 / 常见问题 / 易错规则**（`guide.html`）、**板块速查**（`tiles.html`，按版本、种类、编号查），**往期对局**（`history.html`）。
 - **规则助手**（右下角“规则”）：`/api/chat`，只依据 `tools/讲解稿.md`、`tools/faq.json` 和 `public/tiles-data.js` 回答。模型顺序、超时切换和系列一致；本站不设 cron，`CHAT_STATE` 绑定匹兹堡的 KV，只读它写的 `deepseek-down`。回答下方不显示模型名。
   - **联网查找**（2026-11-12，照匹兹堡移植，用户批准的兜底）：本站资料答不了、又确实是勃艮第城堡的规则问题时，模型只回一行 `【需联网】` 加英文搜索词（以 Castles of Burgundy 开头，涉及典藏版时写 Castles of Burgundy Special Edition）。服务器调 DeepSeek 搜索接口 `/v1/tools/search`：先搜 BGG，不到 3 条再搜全网，最多 6 条，每次 6 秒超时；再让模型只依据这些摘要回答，用 [1] [2] 标出处。因为三个版本规则不同，要求模型写明说法属于哪个版本，看不出版本就提醒玩家按自己手里的版本核对。
@@ -30,6 +31,7 @@
 - `public/app.js`：房间页面，`morph()` 增量渲染；草稿、展开状态放在 `ui` 里。
 - `src/worker.js`：Room / Lobby / Archive 三个 Durable Object；主持人凭据不发给手机。
 - `src/chat.js`、`src/sse.js`、`public/chat.js`：规则助手。
+- `public/teach.js`：讲规则页的全部内容（TERMS 术语、PARTS 讲稿、NOTES 注意事项、GROUPS 图标速查），用词和讲解稿一致。图片在 `public/img/teach/*.webp`。
 - `tools/讲解稿.md`、`tools/faq.json`：教程和常见问题的源文件。改完运行 `node tools/sync.mjs`，复制到 `public/guide.md`、`public/faq.json`。
 
 ## 本地运行与测试
@@ -39,6 +41,8 @@ ln -s /tmp/claude-501/pgh2/node_modules node_modules   # playwright-core
 wrangler dev --port 8951                               # 不设 DeepSeek 密钥
 node tests/run.mjs                                     # 另开终端
 ```
+
+讲规则页另跑 `node tests/test_teach.mjs <地址> <截图目录>`：只拦截 `/api/chat`、不写数据，本地和线上都能跑（2026-11-13 线上全部通过）。
 
 `tests/run.mjs` 依次跑 9 个测试，结果写进 `tests/测试结果.md`，截图在 `/tmp/claude-501/burgundy_shots/`。完整对局测试只能对 localhost 跑；评价接口全部用 `page.route` 拦截，不往线上写数据。规则助手测试用无密钥模式和拦截的流式回答，不调用真实模型。
 
@@ -65,3 +69,5 @@ wrangler secret put DEEPSEEK_API_KEY --name castles-of-burgundy-helper   # 由�
 ## 版权
 
 游戏、规则与官方盒封面版权归原权利方。本站讲解是自己概括的非官方辅助说明。插画为 Codex CLI 生成的原创图，见 [docs/素材来源.md](docs/素材来源.md)。
+
+例外：讲规则页的图片截自特别典藏版官方英文规则书（[Ravensburger 托管的 PDF](https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/CoB_Rulebook_285x210mm%20%5B28%20pages%5D.pdf)，28 页），页脚署名并链接原文，版权归 Ravensburger 与 Awaken Realms 所有。做法：`pdftoppm -r 300` 渲染，按坐标裁剪；六角片按六边形抠成透明背景，去掉规则书的底条；压成 webp（一般最长边 160 px，版图类 240 px），31 张共约 160 KB。

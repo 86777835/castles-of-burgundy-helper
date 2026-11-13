@@ -27,6 +27,7 @@ const $c = s => document.querySelector(s);
 const fab = $c('.cfab'), panel = $c('.cpanel'), log = $c('.clog'), form = $c('.cin'), box = form.querySelector('textarea'), sendBtn = form.querySelector('button');
 const open = on => { panel.classList.toggle('hidden', !on); fab.classList.toggle('hidden', on); if (on) box.focus(); };
 fab.onclick = () => open(true);
+window.askRules = q => { open(true); ask(q); };   // the teach page's 「问」 buttons
 $c('.cx').onclick = () => open(false);
 $c('.csug').onclick = e => { const b = e.target.closest('button'); if (b) ask(b.textContent); };
 form.onsubmit = e => { e.preventDefault(); ask(box.value); };
